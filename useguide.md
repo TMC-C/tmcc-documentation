@@ -1,3 +1,7 @@
+# Prerequisites
+
+java 8, dotnet, maven, ??? (expand this)
+
 # tmc-langs
 
 ## Setup
@@ -20,7 +24,11 @@ This will run tests for the exercise and save the test results to the file ```te
 
 ## Setup
 
-put stuff here
+The runner can be cloned from https://github.com/TMC-C/tmc-csharp-runner.
+
+Build the runner with ```dotnet build```.
+
+Using the runner with tmc-langs requires you to set the full path to the compiled ```Bootstrap.dll``` file into the environment variable ```TMC_CSHARP_BOOTSTRAP_PATH```. The ```Bootstrap.dll``` file is contained in the folder ```[tmc langs root]/Bootstrap/bin/Debug/netcoreapp3.1/```. If on Windows, use double backslashes as folder separators in the path. For example ```C:\\whatever\\tmc-csharp-runner\\Bootstrap\\bin\\Debug\\netcoreapp3.1\\Bootstrap.dll```.
 
 ## Running
 
