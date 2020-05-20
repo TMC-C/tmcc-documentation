@@ -19,7 +19,7 @@ The tmc-langs cli (command line interface) can be used to run tests for an exerc
 
 Using the cli requires you have built the CSharp runner and have set the environment variable ```TMC_CSHARP_BOOTSTRAP_PATH``` (See the tmc-csharp-runner section below).
 
-To run, use the command ```java -jar target\tmc-langs-cli-0.7.17-SNAPSHOT.jar run-tests --exercisePath [full path to exercise root folder] --outputPath testResults.txt``` in the root folder.
+To run tests for an exercise, use the command ```java -jar target\tmc-langs-cli-0.7.17-SNAPSHOT.jar run-tests --exercisePath [full path to exercise root folder] --outputPath testResults.txt``` in the langs root folder.
 
 This will run tests for the exercise and save the test results to the file ```testResults.txt```.
 
@@ -35,4 +35,6 @@ Using the runner with tmc-langs requires you to set the full path to the compile
 
 ## Running
 
-put stuff here
+The runner can be used standalone to build and run tests for an exercise.
+
+To test an exercise, use the command ```dotnet [path to Bootstrap.dll] -t --project-dir [path to exercise root folder]```. This will generate a (hidden) file called ```.tmc_test_results.json``` in the exercise root folder containing the test results in json form.
