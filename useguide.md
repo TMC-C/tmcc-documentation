@@ -3,7 +3,7 @@
 Using tmc-langs and the tmc-csharp-runner requires you have installed the following:
 - a Java 8 or higher [JDK](https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html) 
 - a version of [Maven](https://maven.apache.org/download.cgi)
-- [.NET](https://dotnet.microsoft.com/download) 3.1 or higher
+- [.NET](https://dotnet.microsoft.com/download) Core 3.1 or higher
 
 # tmc-langs
 
