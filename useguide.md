@@ -38,3 +38,10 @@ Using the runner with tmc-langs requires you to set the full path to the compile
 The runner can be used standalone to build and run tests for an exercise.
 
 To test an exercise, use the command ```dotnet [path to Bootstrap.dll] -t --project-dir [path to exercise root folder]```. This will generate a (hidden) file called ```.tmc_test_results.json``` in the exercise root folder containing the test results in json form.
+
+## Generating test coverage report locally
+
+1. Open terminal in the project root folder
+2. Run "``` bash GetTestReport ```"
+3. Go to direcotry Tests -> coveragereport
+4. Open index.htm on your internet browser
