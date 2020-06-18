@@ -1,6 +1,6 @@
 # TMC-C# documentation
 
-EXPLATION HERE
+C# language support for TestMyCode
 
 ## User guides:
 
