@@ -2,7 +2,7 @@
 
 C# language support for TestMyCode
 
-## User guides:
+## User guides
 
 [Student guide](https://tmc-csharp.github.io/guide_students/)
 
@@ -18,7 +18,7 @@ C# language support for TestMyCode
 
 [GitHub organization](https://github.com/TMC-CSharp)
 
-## Project information:
+## Project information
 
 [C# and Bash TMC Work Log](https://docs.google.com/spreadsheets/d/1Rt5mwHxZ2K8hD5x_bWhNBSTf3l27u-j-_Dcka2V3l10/edit?usp=sharing)
 
