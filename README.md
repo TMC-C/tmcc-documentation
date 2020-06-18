@@ -1,4 +1,4 @@
-# TMC-C# documentation
+# TMC-C#
 
 C# language support for TestMyCode
 
