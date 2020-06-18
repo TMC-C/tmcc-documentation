@@ -9,7 +9,7 @@ Using tmc-langs and the tmc-csharp-runner requires you have installed the follow
 
 ## Setup
 
-The C#-fork of tmc-langs can be cloned from https://github.com/TMC-C/tmc-langs.
+The C#-fork of tmc-langs can be cloned from https://github.com/TMC-CSharp/tmc-langs.
 
 Build the project with ```mvn clean package -DskipTests``` in the tmc-langs root folder. Tests are broken and skipped for now. Install the dependency to your local Maven repository with ```mvn clean install -U```.
 
@@ -27,7 +27,7 @@ This will run tests for the exercise and save the test results to the file ```te
 
 ## Setup
 
-The runner can be cloned from https://github.com/TMC-C/tmc-csharp-runner.
+The runner can be cloned from https://github.com/TMC-CSharp/tmc-csharp-runner.
 
 Build the runner with ```dotnet build``` in the runner root folder.
 
