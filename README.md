@@ -16,6 +16,8 @@ C# language support for TestMyCode
 
 [tmc-langs (fork)](https://github.com/TMC-CSharp/tmc-langs)
 
+[Code Exercise Library](https://github.com/TMC-CSharp/CodeExerciseLibrary)
+
 [GitHub organization](https://github.com/TMC-CSharp)
 
 ## Project information
